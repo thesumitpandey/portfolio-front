@@ -1247,3 +1247,7 @@ scroll-behavior: smooth;
 
 
 /* huyftyfghfgjgf */
+
+.body{
+  min-height: 100vh;
+}

@@ -18,7 +18,8 @@
     "react-simple-typewriter": "^5.0.1",
     "react-toastify": "^11.0.2",
     "react-top-loading-bar": "^3.0.2",
-    "react-tsparticles": "^2.12.2"
+    "react-tsparticles": "^2.12.2",
+    "web-vitals": "^4.2.4"
   },
   "scripts": {
     "start": "react-scripts start",

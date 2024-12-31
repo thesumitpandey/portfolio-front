@@ -4,7 +4,7 @@ import Notecontext from './context';
 
 
 const NoteState = (props) => {
-  const host = "http://localhost:5000";
+  const host = "https://portfolio-backend-2-vhs2.onrender.com";
   const headers = {
     'Content-Type': 'application/json',
   };

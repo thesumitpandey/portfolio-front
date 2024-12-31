@@ -61,7 +61,7 @@ export default function Contact(props) {
         <ul>
           <li>
             <FontAwesomeIcon icon={faEnvelope} style={{ marginRight: '10px', color: 'black' }} />
-            <span>sumit1234coc@gmail.com</span>
+            <span><a href="mailto:sumit1234coc@gmail.com"  style={{textDecoration: 'underline', color:"black", textDecorationColor:"white"}}>sumit1234coc@gmail.com</a></span>
           </li>
           <li>
             <FontAwesomeIcon icon={faPhone} style={{ marginRight: '10px',color: 'black' }} />

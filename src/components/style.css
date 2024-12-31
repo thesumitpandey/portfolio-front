@@ -14,18 +14,18 @@ body{
   background-image:url('./vecteezy_geometric-animated-background-light-color_7420874.gif');   
   background-size: cover; 
   background-position: center; 
-  height: 100vh;
+  min-height: 100vh;
   color: #070707;
   padding-top: 60px;
   background-repeat:repeat;
     
 }
-body, html {
+/* body, html {
   height: 100%;
   background-color: black;
   margin: 0;
   overflow-x: hidden; 
-}
+} */
 
 
 .main {

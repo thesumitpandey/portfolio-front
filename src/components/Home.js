@@ -79,7 +79,7 @@ export default function Home() {
         </Card.Body>
 
         <Card.Img
-           src={isLoading ? L : im}
+           src={im}
           alt="Card image"
           className="card-image rounded-image "
           onLoad={handleImageLoad}

@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-import im from './output-onlinegiftools.gif';
+import im from './loadingimg.gif';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { Typewriter } from 'react-simple-typewriter';

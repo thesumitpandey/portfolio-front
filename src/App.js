@@ -18,6 +18,7 @@ import Contact from './components/contact'
 import LoadingBar from 'react-top-loading-bar';
 import { ToastContainer } from 'react-toastify'; 
 import { toast } from 'react-toastify';
+import { Suspense } from 'react';
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
     }
   
   return (
+    <Suspense fallback={<div>Loading data...</div>}>
     <div>
          
      <Notestate>
@@ -37,6 +39,7 @@ function App() {
             <LoadingBar color='white' progress={progress} />
             <div>
               <Routes>
+                
               <Route exact path='/' element={<Home/>} />
               <Route exact path='/Home' element={<Home/>} />
               <Route exact path='/About' element={<About/>} />
@@ -52,6 +55,7 @@ function App() {
         </Notestate>
     
     </div>
+    </Suspense>
   );
 }
 

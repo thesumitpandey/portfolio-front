@@ -11,11 +11,17 @@ import Contact from './contact';
 import { FaGithub } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa6';
 import { Suspense,lazy } from 'react';
+import L from './Infinity@1x-1.0s-200px-200px.gif'
+import { useState } from 'react';
+
+
 
 
 export default function Home() {
-
-
+  const [isLoading, setIsLoading] = useState(true);
+  const handleImageLoad = () => {
+    setIsLoading(false); 
+  };
   return (
   
     
@@ -72,13 +78,14 @@ export default function Home() {
       
         </Card.Body>
 
-    
         <Card.Img
-          src={im}
+           src={isLoading ? L : im}
           alt="Card image"
           className="card-image rounded-image"
+          onLoad={handleImageLoad}
         />
       </Card>
+    
     </div>
    
   );

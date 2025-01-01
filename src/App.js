@@ -31,7 +31,7 @@ function App() {
     }
   
   return (
-    <Suspense fallback={<L></L>}>
+    
     <div>
          
      <Notestate>
@@ -57,7 +57,7 @@ function App() {
         </Notestate>
     
     </div>
-    </Suspense>
+  
   );
 }
 

@@ -26,7 +26,7 @@ export default function Home() {
   
     
 
-    <div className="Home">
+    <div className="Home background-rgb">
       <Card className="card-container">
     
         <Card.Body className="card-body">
@@ -81,7 +81,7 @@ export default function Home() {
         <Card.Img
            src={isLoading ? L : im}
           alt="Card image"
-          className="card-image rounded-image"
+          className="card-image rounded-image "
           onLoad={handleImageLoad}
         />
       </Card>

@@ -11,7 +11,7 @@ import Contact from './contact';
 import { FaGithub } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa6';
 import { Suspense,lazy } from 'react';
-import L from './loadingimg.gif'
+
 import { useState } from 'react';
 
 
@@ -25,7 +25,7 @@ export default function Home() {
   return (
   
     
-
+   
     <div className="Home background-rgb">
       <Card className="card-container">
     
@@ -87,6 +87,7 @@ export default function Home() {
       </Card>
     
     </div>
+   
    
   );
 }

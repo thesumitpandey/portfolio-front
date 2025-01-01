@@ -18,9 +18,9 @@ import Contact from './components/contact'
 import LoadingBar from 'react-top-loading-bar';
 import { ToastContainer } from 'react-toastify'; 
 import { toast } from 'react-toastify';
-import { Suspense } from 'react';
-
-import Home from './components/Home';
+import { Suspense,lazy } from 'react';
+import Lo from './components/loading'
+const Home = lazy(() => import('./components/Home'));
 
 function App() {
   const [progress, set] = useState(0);
@@ -30,9 +30,9 @@ function App() {
     }
   
   return (
-    <Suspense fallback={<div>Loading data...</div>}>
+    <Suspense fallback={<Lo></Lo>}>
     <div>
-         
+        
      <Notestate>
           <HashRouter> 
             <ToastContainer  position="top-center"autoClose={2000} />
@@ -42,7 +42,9 @@ function App() {
               <Routes>
                 
               <Route exact path='/' element={<Home/>} />
-              <Route exact path='/Home' element={<Home/>} />
+             
+              <Route exact path='/Home' element={<Home/> }/>
+          
               <Route exact path='/About' element={<About/>} />
               <Route exact path='/Skills' element={<Skill/>} />
               <Route exact path='/Projects' element={<Projects/>} />
@@ -56,7 +58,7 @@ function App() {
         </Notestate>
     
     </div>
-    </Suspense>
+    </Suspense> 
   );
 }
 

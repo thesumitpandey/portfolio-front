@@ -11,7 +11,7 @@ import Contact from './contact';
 import { FaGithub } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa6';
 import { Suspense,lazy } from 'react';
-import L from './Infinity@1x-1.0s-200px-200px.gif'
+import L from './loadingimg.gif'
 import { useState } from 'react';
 
 

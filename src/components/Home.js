@@ -10,9 +10,16 @@ import Skill from './Skill';
 import Contact from './contact';
 import { FaGithub } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa6';
+import { Suspense,lazy } from 'react';
+
 
 export default function Home() {
+
+
   return (
+  
+    
+
     <div className="Home">
       <Card className="card-container">
     
@@ -73,5 +80,6 @@ export default function Home() {
         />
       </Card>
     </div>
+   
   );
 }

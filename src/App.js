@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Notestate from './notestate/note';
 import { useState } from 'react';
 import { HashRouter, Routes, Route } from "react-router-dom";
-import Home from './components/Home'
+import L from './components/loading'
 import Navbar  from './components/navbar';
 import './components/style.css'
 import About from './components/About';
@@ -18,8 +18,10 @@ import Contact from './components/contact'
 import LoadingBar from 'react-top-loading-bar';
 import { ToastContainer } from 'react-toastify'; 
 import { toast } from 'react-toastify';
-import { Suspense } from 'react';
+import { Suspense,lazy } from 'react';
 
+
+const Home=lazy(()=>import("./components/Home"))
 
 function App() {
   const [progress, set] = useState(0);
@@ -29,7 +31,7 @@ function App() {
     }
   
   return (
-    <Suspense fallback={<div>Loading data...</div>}>
+    <Suspense fallback={<L></L>}>
     <div>
          
      <Notestate>
@@ -40,7 +42,7 @@ function App() {
             <div>
               <Routes>
                 
-              <Route exact path='/' element={<Home/>} />
+              <Route exact path='/' element={<Home/>} loader={<L></L>} />
               <Route exact path='/Home' element={<Home/>} />
               <Route exact path='/About' element={<About/>} />
               <Route exact path='/Skills' element={<Skill/>} />

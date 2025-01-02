@@ -23,7 +23,7 @@ export default function More(props) {
   return (
     <div className="container d-flex justify-content-center my-2">
       <Card style ={{ width: '60rem'}} className='more'>
-      <Card.Img variant="top"    className="container d-flex justify-content-center my-2" src={cr} alt="holder.js/100px180"  style={{minHeight:'11rem'}}/>
+      <Card.Img variant="top"    className="container d-flex justify-content-center my-2" src='https://cdn.jsdelivr.net/gh/thesumitpandey/mygif@08a0741b0bef928a555afe987f354149bbe618dc/cryptoalert.png' alt="holder.js/100px180"  style={{minHeight:'11rem'}}/>
       <Card.Body className="text-center" >
     
 <Card.Text className="fs-8 text-center" style={{color:"black"}}>

@@ -10,7 +10,7 @@ import noteContext from '../notestate/context';
 import { useContext} from 'react';
 import { Typewriter } from 'react-simple-typewriter';
 import { useNavigate } from 'react-router-dom';
-import v from "./mvideo.mp4"
+import v from "./compressed.mp4"
 
 
 
@@ -24,7 +24,7 @@ export default function More(props) {
   return (
     <div className="container6 d-flex justify-content-center my-2">
       <Card style ={{ width: '60rem'}} className='more'>
-      <Card.Img variant="top"    className="container d-flex justify-content-center my-2" src={mo} alt="holder.js/100px180"  style={{minHeight:'11rem'}}/>
+      <Card.Img variant="top"    className="container d-flex justify-content-center my-2" src='https://cdn.jsdelivr.net/gh/thesumitpandey/mygif@08a0741b0bef928a555afe987f354149bbe618dc/movie.png' alt="holder.js/100px180"  style={{minHeight:'11rem'}}/>
       <Card.Body className="text-center" >
     
 <Card.Text className="fs-8 text-center" style={{color:"black"}}>
@@ -51,7 +51,7 @@ export default function More(props) {
      <card className="Text">
      <h5>Here is a video demonstration of my website, showcasing its features and functionality. The website is not currently deployed as the API used for its operation is not free</h5>
         <video width="600" controls>
-        <source src={v} type="video/mp4" />
+        <source src={v}type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 

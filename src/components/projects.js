@@ -40,9 +40,9 @@ export default function Projects() {
 
  
       <div className="projects-container">
-        <Projectc i={mo} c={mov} title='MovieSphere' r={r} l={movl} />
-        <Projectc i={wo} c={wor} title='WordWave' r={q} l={worl} />
-        <Projectc i={cr} c={cry} title='CryptoAlert!' l={cryl} r={y} />
+        <Projectc i='https://cdn.jsdelivr.net/gh/thesumitpandey/mygif@08a0741b0bef928a555afe987f354149bbe618dc/movie.png' c={mov} title='MovieSphere' r={r} l={movl} />
+        <Projectc i='https://cdn.jsdelivr.net/gh/thesumitpandey/mygif@08a0741b0bef928a555afe987f354149bbe618dc/wordwave.png' c={wor} title='WordWave' r={q} l={worl} />
+        <Projectc i='https://cdn.jsdelivr.net/gh/thesumitpandey/mygif@08a0741b0bef928a555afe987f354149bbe618dc/cryptoalert.png' c={cry} title='CryptoAlert!' l={cryl} r={y} />
       </div>
     </div>
   );

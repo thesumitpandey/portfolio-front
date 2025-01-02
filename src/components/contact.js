@@ -19,6 +19,7 @@ export default function Contact(props) {
   const { add } = useContext(noteContext);
 
   const handle = async (e) => {
+    props.showToast('Please wait, we are processing and sending your message.');
     props.set(20);
     e.preventDefault(); 
     if (!note.name || !note.email || !note.message) {

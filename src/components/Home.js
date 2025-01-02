@@ -79,9 +79,9 @@ export default function Home() {
         </Card.Body>
 
         <Card.Img
-           src={im}
+           src='https://cdn.jsdelivr.net/gh/thesumitpandey/mygif@d178b447fe03ec734bcd99dcec26d8dd137fff41/loadingimg.gif'
           alt="Card image"
-          className="card-image rounded-image "
+          className="card-image rounded-image image-border-animation"
           onLoad={handleImageLoad}
         />
       </Card>

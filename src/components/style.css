@@ -1248,29 +1248,4 @@ scroll-behavior: smooth;
 
 /* huyftyfghfgjgf */
 
-.body{
-  min-height: 100vh;
-}
-
-/* Keyframes for the floating effect */
-@keyframes float {
-  0%, 100% {
-    transform: translateY(0); /* No movement at the start and end */
-  }
-  50% {
-    transform: translateY(-10px); /* Move up slightly */
-  }
-}
-
-/* Apply floating effect to the image */
-.floating-image {
-  display: block;
-  margin: 0 auto;
-  width: 300px; /* Adjust to your image size */
-  height: auto;
-  border-radius: 15px; /* Optional: Rounded corners */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Optional: Shadow for a nice effect */
-  animation: float 3s ease-in-out infinite; /* Smooth floating animation */
-}
-
 

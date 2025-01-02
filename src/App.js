@@ -5,7 +5,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Notestate from './notestate/note';
 import { useState } from 'react';
 import { HashRouter, Routes, Route } from "react-router-dom";
-
 import Navbar  from './components/navbar';
 import './components/style.css'
 import About from './components/About';
@@ -40,11 +39,8 @@ function App() {
             <LoadingBar color='white' progress={progress} />
             <div>
               <Routes>
-            
               <Route exact path='/' element={<Home/>} />
-             
               <Route exact path='/Home' element={<Home/> }/>
-          
               <Route exact path='/About' element={<About/>} />
               <Route exact path='/Skills' element={<Skill/>} />
               <Route exact path='/Projects' element={<Projects/>} />

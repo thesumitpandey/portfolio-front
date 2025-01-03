@@ -39,9 +39,9 @@ export default function Home() {
               loop={false}
               cursor
               cursorStyle="_"
-              typeSpeed={70}
-              deleteSpeed={70}
-              delaySpeed={2000}
+              typeSpeed={50}
+              deleteSpeed={50}
+              delaySpeed={1000}
             />
           </Card.Title>
           <Card.Text className="animated-text2">

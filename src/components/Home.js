@@ -147,7 +147,8 @@ export default function Home() {
         </Card.Body>
 
         <Card.Img
-           src={img}
+            src="https://cdn.jsdelivr.net/gh/thesumitpandey/portfolio-front@f58956563e0a5cf84be1d6c55b625d5d824af306/src/components/Untitled%20design-modified.png"
+
           alt="Card image"
           className="card-image rounded-image image-border-animation"
         />

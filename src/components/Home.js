@@ -16,6 +16,7 @@ import { FaFileAlt } from 'react-icons/fa';
 import { Suspense,lazy } from 'react';
 
 import { useState } from 'react';
+import img from './Untitled design-modified.png'
 
 
 
@@ -146,7 +147,7 @@ export default function Home() {
         </Card.Body>
 
         <Card.Img
-           src='https://cdn.jsdelivr.net/gh/thesumitpandey/mygif@d178b447fe03ec734bcd99dcec26d8dd137fff41/loadingimg.gif'
+           src={img}
           alt="Card image"
           className="card-image rounded-image image-border-animation"
         />

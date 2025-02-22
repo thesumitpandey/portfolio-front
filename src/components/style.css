@@ -81,7 +81,7 @@ body{
 .rounded-image {
  
 
-    animation: big 2s ease-out forwards;
+    animation: big 1s  forwards;
     
   }
 
@@ -998,7 +998,7 @@ margin-right: 25px;
   transform: translateY(30px);
   font-size: 1.5rem; 
 
-  animation: appearFromBotto 2s ease-out forwards; 
+  animation: appearFromBotto 1s  forwards; 
   color: #000000;
 }
 
@@ -1035,7 +1035,7 @@ margin-right: 25px;
   opacity: 0; 
   transform: translateY(30px);
   
-  animation: appearFromBott 2s ease-out forwards; 
+  animation: appearFromBott 1s ease-in forwards; 
   color: #211f1f;
 }
 

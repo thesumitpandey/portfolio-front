@@ -12,7 +12,7 @@ import { FaGithub } from 'react-icons/fa';
 import { FaLinkedin  } from 'react-icons/fa';
 import {  FaC, FaJs  } from 'react-icons/fa6';
 import {FaReact} from 'react-icons/fa6';
-
+import { FaFileAlt } from 'react-icons/fa';
 import { Suspense,lazy } from 'react';
 
 import { useState } from 'react';
@@ -69,6 +69,10 @@ export default function Home() {
 
                    <a href='https://github.com/thesumitpandey' target="_blank" rel="noopener noreferrer"  style={{textDecoration: 'underline',textDecorationColor:"black", border: '2px solid black', padding: '5px', marginLeft:"5px", borderRadius:'50px'}}>
                      <span style={{color:"black"}}>  <FaGithub size={27} style={{ marginRight: '0px', color: 'black' }} />GitHub</span>
+                   </a>
+
+                   <a href='https://drive.google.com/file/d/1Re4zVjzExh9fevUq3UYi48rX7yyosrUw/view?usp=drive_link' target="_blank" rel="noopener noreferrer"  style={{textDecoration: 'underline',textDecorationColor:"black", border: '2px solid black', padding: '5px', marginLeft:"5px", borderRadius:'50px'}}>
+                     <span style={{color:"black"}}>  <FaFileAlt size={27} style={{ marginRight: '0px', color: 'black' }} />Resume</span>
                    </a>
                  </li>
 

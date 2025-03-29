@@ -72,7 +72,7 @@ export default function Home() {
                      <span style={{color:"black"}}>  <FaGithub size={27} style={{ marginRight: '0px', color: 'black' }} />GitHub</span>
                    </a>
 
-                   <a href='https://drive.google.com/file/d/1Re4zVjzExh9fevUq3UYi48rX7yyosrUw/view?usp=drive_link' target="_blank" rel="noopener noreferrer"  style={{textDecoration: 'underline',textDecorationColor:"black", border: '2px solid black', padding: '5px', marginLeft:"5px", borderRadius:'50px'}}>
+                   <a href='https://drive.google.com/drive/folders/1QIi4EuEictQ394c8wBjHIlrCR5iZi8Pe?usp=drive_link' target="_blank" rel="noopener noreferrer"  style={{textDecoration: 'underline',textDecorationColor:"black", border: '2px solid black', padding: '5px', marginLeft:"5px", borderRadius:'50px'}}>
                      <span style={{color:"black"}}>  <FaFileAlt size={27} style={{ marginRight: '0px', color: 'black' }} />Resume</span>
                    </a>
                  </li>
